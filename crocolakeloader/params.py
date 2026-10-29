@@ -16,7 +16,7 @@ import copy
 #------------------------------------------------------------------------------#
 #
 # List of databases and their folder names
-databases = ["ARGO", "GLODAP", "SprayGliders", "CPR", "Saildrones", "OleanderXBT", "SPOTS"]
+databases = ["ARGO", "GLODAP", "SprayGliders", "CPR", "Saildrones", "OleanderXBT", "SPOTS", "eMOLT"]
 
 databases_codenames = {}
 databases_codenames["ARGO"] = "ARGO" #"ARGO-CLOUD"
@@ -26,6 +26,7 @@ databases_codenames["CPR"] = "CPR"#"SPRAY-DEV"
 databases_codenames["Saildrones"] = "SAILDRONES"#"SAILDRONES-DEV"
 databases_codenames["OleanderXBT"] = "OLEANDER"#"OLEANDER-DEV"
 databases_codenames["SPOTS"] = "SPOTS"#"SPOTS-DEV"
+databases_codenames["eMOLT"] = "EMOLT"
 
 params = {}
 units  = {}
